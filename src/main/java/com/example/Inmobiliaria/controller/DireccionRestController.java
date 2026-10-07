@@ -67,9 +67,9 @@ public Direccion getDireccion(@PathVariable int id) {
 	}
 //eliminardirección {id}
 	@DeleteMapping("/deleteDireccion/{id}")
-public boolean deleteDireccion(@PathVariable int direccionId) {
+public boolean deleteDireccion(@PathVariable int id) {
 	for (Direccion direccion : list) {
-		if(direccion.getId() == direccionId) {
+		if(direccion.getId() == id) {
 			list.remove(direccion);
 			return true;
 		}
