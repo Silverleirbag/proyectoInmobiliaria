@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package com.example.Inmobiliaria.rest;
+package com.example.Inmobiliaria.controller;
 
 import com.example.Inmobiliaria.entity.Puerta;
 import jakarta.annotation.PostConstruct;
